@@ -1,6 +1,5 @@
 import random
-import sys
-generate = random.randint(int(sys.argv[1]), int(sys.argv[2]))
+generate = random.randint(1,10)
 while True:
     try:
         guess = int(input("Guess the number 1 to 10: "))
